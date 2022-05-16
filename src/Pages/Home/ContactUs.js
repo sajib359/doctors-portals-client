@@ -17,7 +17,7 @@ const ContactUs = () => {
                 <input type="text" placeholder="Type here" className="mb-5 input input-bordered input-sm w-full max-w-xs" /><br></br>
 
                 <input type="text" placeholder="Type here" className="mb-5 input input-bordered input-lg w-full max-w-xs" /><br></br>
-                <button  className='p-2 rounded bg-primary w-full mx-auto'>Submit</button>
+                <button  className='p-2 rounded bg-primary w-1/2 mx-auto'>Submit</button>
             </div>
             </div>
 
