@@ -6,9 +6,9 @@ import phone from '../../assets/icons/phone.svg'
 const Info = () => {
     return (
         <div className='grid grid-cols-1 md:grid-cols-3 gap-5 '>
-            <InfoCard CardTitle="opening Hours" bgclassName="bg-gradient-to-r from-secondary to-primary" img={clock}></InfoCard>
-            <InfoCard CardTitle="Visit Our location" bgclassName="bg-black" img={marker}></InfoCard>
-            <InfoCard CardTitle="Contract Us Now" bgclassName="bg-gradient-to-r from-secondary to-primary" img={phone}></InfoCard>
+            <InfoCard CardTitle="opening Hours" bgClass="bg-gradient-to-r from-secondary to-primary" img={clock}></InfoCard>
+            <InfoCard CardTitle="Visit Our location" bgClass="bg-black" img={marker}></InfoCard>
+            <InfoCard CardTitle="Contract Us Now" bgClass="bg-gradient-to-r from-secondary to-primary" img={phone}></InfoCard>
         </div>
     );
 };
